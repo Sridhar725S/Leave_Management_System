@@ -8,7 +8,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const path = require('path');
 require('dotenv').config();
-
+ 
 const app = express();
 app.use(bodyParser.json());
 app.use(cors());
