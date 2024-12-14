@@ -11,7 +11,7 @@ const Dashboard = () => {
 
   // Define API base URL based on environment
   const API_BASE_URL = process.env.NODE_ENV === 'production' 
-    ? 'https://leave-management-system-5wch.onrender.com' 
+    ? 'https://leave-management-system-o8km.onrender.com' 
     : 'http://localhost:10000';
 
   useEffect(() => {
